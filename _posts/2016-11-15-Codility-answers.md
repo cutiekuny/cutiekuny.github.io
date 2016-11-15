@@ -2,7 +2,8 @@ I made this codes by Java.
 If you are interested in this questions, you can find more in here -> https://codility.com/
 
 ### Q1> BinaryGap
-<pre><code>
+
+<code>
 class Solution {
     public int solution(int N) {
         // write your code in Java SE 8
@@ -29,12 +30,13 @@ class Solution {
 	    return tmp1;
     }
 }
-</code></pre>
+</code>
+
 reference.
 http://abh0518.net/tok/?p=535
 
 ### Q2-1> CyclicRotation
-<pre><code>
+<code>
 class Solution {
     public int[] solution(int[] A, int K) {
         final int MAX = 100;
@@ -54,7 +56,7 @@ class Solution {
 	        return B;
     }
 }
-</code></pre>
+</code>
 
 ### Q2-2> OddOccurrencesInArray
 
@@ -63,7 +65,7 @@ http://jays1204.github.io/node.js/codillity/2016/01/10/OddOccurrencesInArray.htm
 
 ### Q3-1> TapeEquilibrium
 
-<pre><code>
+<code>
 class Solution {
     public int solution(int[] A) {
         // write your code in Java SE 8
@@ -91,21 +93,21 @@ class Solution {
         return l;
     }
 }
-</code></pre>
+</code>
 
 ### Q3-2> FrogJmp
 
-<pre><code>
+<code>
 class Solution {
     public int solution(int X, int Y, int D) {
         return (Y-X)%D == 0 ? (Y-X)/D : (Y-X)/D + 1;
     }
 }
-</code></pre>
+</code>
 
 ### Q3-3> PermMissingElem
 
-<pre><code>
+<code>
 class Solution {
     public int solution(int[] A) {
         int i=1, j=0, k;
@@ -116,11 +118,11 @@ class Solution {
         return i-j;
     }
 }
-</code></pre>
+</code>
 
 ### Q4-1> MissingInteger
 
-<pre><code>
+<code>
 import java.util.HashSet;
 class Solution {
     public int solution(int[] A) {
@@ -139,12 +141,12 @@ class Solution {
         return 1;
     }
 }
-</code></pre>
+</code>
 
 ### Q4-2> PermCheck
 
 4-1과 유사.
-<pre><code>
+<code>
 import java.util.HashSet;
 class Solution {
     public int solution(int[] A) {
@@ -160,4 +162,4 @@ class Solution {
         return 1;
     }
 }
-</code></pre>
+</code>

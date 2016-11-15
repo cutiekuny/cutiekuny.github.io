@@ -55,12 +55,14 @@ class Solution {
     }
 }
 </code></pre>
+
 ### Q2-2> OddOccurrencesInArray
 
 reference
 http://jays1204.github.io/node.js/codillity/2016/01/10/OddOccurrencesInArray.html
 
 ### Q3-1> TapeEquilibrium
+
 <pre><code>
 class Solution {
     public int solution(int[] A) {
@@ -90,7 +92,9 @@ class Solution {
     }
 }
 </code></pre>
+
 ### Q3-2> FrogJmp
+
 <pre><code>
 class Solution {
     public int solution(int X, int Y, int D) {
@@ -98,7 +102,9 @@ class Solution {
     }
 }
 </code></pre>
+
 ### Q3-3> PermMissingElem
+
 <pre><code>
 class Solution {
     public int solution(int[] A) {
@@ -111,7 +117,9 @@ class Solution {
     }
 }
 </code></pre>
+
 ### Q4-1> MissingInteger
+
 <pre><code>
 import java.util.HashSet;
 class Solution {
@@ -132,7 +140,9 @@ class Solution {
     }
 }
 </code></pre>
+
 ### Q4-2> PermCheck
+
 4-1과 유사.
 <pre><code>
 import java.util.HashSet;

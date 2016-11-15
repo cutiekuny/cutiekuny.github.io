@@ -1,9 +1,10 @@
 I made this codes by Java.
 If you are interested in this questions, you can find more in here -> https://codility.com/
 
+```
 ### Q1> BinaryGap
 
-<code>
+
 class Solution {
     public int solution(int N) {
         // write your code in Java SE 8
@@ -30,7 +31,7 @@ class Solution {
 	    return tmp1;
     }
 }
-</code>
+
 
 reference.
 http://abh0518.net/tok/?p=535
@@ -146,7 +147,8 @@ class Solution {
 ### Q4-2> PermCheck
 
 4-1과 유사.
-<code>
+
+
 import java.util.HashSet;
 class Solution {
     public int solution(int[] A) {
@@ -162,4 +164,4 @@ class Solution {
         return 1;
     }
 }
-</code>
+```

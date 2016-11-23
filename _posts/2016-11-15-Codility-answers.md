@@ -1,6 +1,8 @@
 I made this codes by Java.
 If you are interested in this questions, you can find more in here -> https://codility.com/
 
+11-23 modified
+
 ```
 ### Q1> BinaryGap
 
@@ -164,4 +166,33 @@ class Solution {
         return 1;
     }
 }
-```
+
+## Algospot 
+### Q> Endians
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		int i = scan.nextInt();
+		while(i>0){
+			Scanner scan2 = new Scanner(System.in);
+			System.out.println(solution(scan2.nextInt()));
+			i--;
+		}
+	}
+	public static long solution(long A) {
+
+		byte[] b= new byte [4];
+		// & 0xff는 &연산을 함으로써 byte가 음의 값을 갖는 것을 막기 위함 
+		b[0] = (byte)((A>>0)&0xff);
+		b[1] = (byte)((A>>8)&0xff);
+		b[2] = (byte)((A>>16)&0xff);
+		b[3] = (byte)((A>>24)&0xff);
+		
+		long l = (long)(b[0]<<24 | b[1]<<16 | b[2]<<8 | b[3]<<0);
+
+		return l;
+    }
+}
+'''
